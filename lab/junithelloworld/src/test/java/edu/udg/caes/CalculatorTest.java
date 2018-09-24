@@ -49,4 +49,10 @@ public class CalculatorTest {
         final long result = new Calculator().multiply(3, -3);
         assertEquals(result, -9L);
     }
+    @Test
+    public void threeDivideByOneIsThree() throws Exception {
+        final long result = new Calculator().divide(3,1);
+        assertEquals(result,3);
+    } 
+
 }
